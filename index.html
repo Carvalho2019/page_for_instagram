@@ -8,37 +8,78 @@
   <link rel="stylesheet" href="./style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <title>DevLinks</title>
+  <title>PORTFOLIO</title>
 </head>
 
 <body class="light">
   <div id="container">
-    <div id="profile">
-      <img src="./assets/perfil_insta.jpg"
-        alt="imagem de clesio carvalho, sorrindo camisa castalha, com fundo da foto de plantas verde">
-      <p>@clésiocarvalho</p>
-    </div>
     <div id="switch" onclick="toggleMode()">
       <button> </button>
       <span> </span>
     </div>
-    <ul>
+    <div id="profile">
+      <div>
+        <img src="./assets/perfil_insta.jpg" class="avatar"
+          alt="imagem de clesio carvalho, sorrindo camisa castalha, com fundo da foto de plantas verde">
+        <div id="social-links">
+          <a href="https://www.linkedin.com/in/clesio-carvalho/" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="https://www.instagram.com/cesario_miguel15/" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://github.com/Carvalho2019" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="aboutProfile">
+        <h1>OLA, EU SOU CLÉSIO CARVALHO</h1>
+        <h2 class="role">DEVENVOLVEDOR FREELANCER</h2>
+        <p class="descriptionProfile">
+          A arte e da tecnologia sempre me fascinou e nunca tive medo de simplesmente entrar e tentar, seja Paint,
+          Photoshop ou CSS. Programação Vai além de projetar botões e sites, ter uma paixão por projetar experiências e
+          soluções que ajudem as pessoas, Apoiar-se na visão do cliente e entender suas necessidades, encontrar
+        </p>
+        <button class="buttonPrimary"> Entre em contacto </button>
+      </div>
+    </div>
+
+    <div id="skills">
+      <div class="skill-content">
+        <p class="subTitle">MINHAS SKILLS</p>
+        <h2 class="title">
+        Quais são minhas habilidades de programação?
+      </h2>
+      <p>
+        Uma interface de usuário simples, intuitiva e responsiva que ajuda os usuários a realizar tarefas com menos
+        esforço e tempo.
+      </p>
+      </div>
+      <div class="skill-box">
+        <ul class="skill-list">
+          <li class="skill-card"><ion-icon name="logo-html5"></ion-icon></li>
+          <li class="skill-card"><ion-icon name="logo-css3"></ion-icon></li>
+          <li class="skill-card"><ion-icon name="logo-javascript"></ion-icon></li>
+          <li class="skill-card"><ion-icon name="logo-react"></ion-icon></li>
+          <li class="skill-card"><ion-icon name="logo-github"></ion-icon></li>
+          <li class="skill-card"><ion-icon name="logo-nodejs"></ion-icon></li>
+          <li class="skill-card"><ion-icon name="logo-github"></ion-icon></li>
+          <li class="skill-card"><ion-icon name="logo-github"></ion-icon></li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="box">
       <li><a> Baixar meu e-book</a></li>
       <li><a> Veja no portfolio</a></li>
       <li><a href="https://carvalho2019.github.io/page_for_instagram/"> Conheça o explorer</a></li>
     </ul>
-    <div id="social-links">
-      <a href="#">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-      <a href="#">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-      <a href="#">
-        <ion-icon name="logo-youtube"></ion-icon>
-      </a>
-    </div>
+
     <footer>
 
     </footer>
@@ -49,4 +90,5 @@
 <script src="./script.js">
 
 </script>
+
 </html>
